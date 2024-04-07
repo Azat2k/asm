@@ -1,0 +1,2 @@
+nasm -f win32 helloworld.asm
+gcc helloworld.obj -o helloworld.exe

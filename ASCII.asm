@@ -1,7 +1,7 @@
 global _main
 extern _printf
 segment .data
-message: db   'Hello world', 0xA, 0
+message: db   065, 122, 065, 084, 0xA, 0
 section .text
 _main:
 push message
